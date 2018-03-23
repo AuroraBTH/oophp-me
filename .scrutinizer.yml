@@ -1,0 +1,12 @@
+imports:
+    - php
+
+filter:
+    excluded_paths:
+        - var/*
+        - vendor/*
+
+checks:
+    php:
+        code_rating: true
+        duplication: true
