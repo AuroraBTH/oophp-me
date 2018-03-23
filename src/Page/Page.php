@@ -31,11 +31,20 @@ class Page implements /* PageRenderInterface, */ InjectionAwareInterface
 
         // Add static assets
         $data["favicon"] = "favicon.ico";
-        $data["stylesheets"] = ["css/style.css"];
-        $data["javascripts"] = ["js/main.js"];
+        $data["stylesheets"] = [
+            "css/style.css",
+            "../vendor/twbs/bootstrap/dist/css/bootstrap.min.css",
+            "../vendor/components/font-awesome/css/fontawesome-all.min.css"
+        ];
+        $data["javascripts"] = [
+            "../vendor/twbs/bootstrap/assets/js/vendor/jquery-slim.min.js",
+            "../vendor/twbs/bootstrap/assets/js/vendor/popper.min.js",
+            "../vendor/twbs/bootstrap/dist/js/bootstrap.min.js",
+            "js/main.js"
+        ];
 
         // Add views for common header, navbar and footer
-        $view->add("header/oophp/default", $data, "header");
+        // $view->add("header/oophp/default", $data, "header");
         $view->add("navbar/oophp/default", $data, "navbar");
         $view->add("footer/oophp/default", $data, "footer");
 

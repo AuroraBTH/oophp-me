@@ -1,8 +1,10 @@
 /**
  * To show off JS works and can be integrated.
  */
-(function() {
-    "use strict";
 
-    console.info("main.js ready and loaded.");
-})();
+// eslint-disable-next-line no-unused-vars
+function show(kmom) {
+    const div = document.getElementById(kmom);
+
+    div.classList.toggle("hide");
+}
