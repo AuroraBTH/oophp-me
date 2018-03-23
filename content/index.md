@@ -1,21 +1,23 @@
 ---
-title: "My title"
+title: "Me-page - Niklas Andersson"
+class: "article"
 ...
-Min me-sida i kursen oophp
-=========================
 
-[FIGURE src="image/me.jpg?w=500" caption="Bild på mig"]
+<div markdown=1>
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+# This is my Me-page
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+My name is Niklas Andersson, I'm 21 years old. I'm from Jönköping and am currently studying my second year at BTH (WIP).
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+During my spare time I like to keep myself updated with the most recent gadgets and information. I also run a community with the name Sockertoppar (which includes managing a server which runs various different game servers and a Teamspeak server). I also enjoy playing video games from now and then.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+## 5 things I like:
+* Corgi's
+* Ultrawide PC Master Race
+* Unnecessary complicated code solutions
+* Debugging
+* Food
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
+</div>
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
+[FIGURE src="image/me.jpeg" class="border border-dark rounded"]
