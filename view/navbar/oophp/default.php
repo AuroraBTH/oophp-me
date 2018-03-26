@@ -18,6 +18,6 @@ namespace Anax\View;
     <a href="<?= url("") ?>" class="nav-link text-dark">Home</a>
     <a href="<?= url("report") ?>" class="nav-link text-dark">Report</a>
     <a href="<?= url("about") ?>" class="nav-link text-dark">About</a>
-    <a href="<?= url("lek") ?>" class="nav-link text-dark">Play</a>
+    <a href="<?= url("play") ?>" class="nav-link text-dark">Play</a>
     <a href="<?= url("debug") ?>" class="nav-link text-dark">Debug</a>
 </nav>
