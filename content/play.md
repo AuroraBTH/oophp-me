@@ -1,3 +1,10 @@
+---
+title: "Play | Niklas Andersson"
+class: "play"
+...
+
+<div markdown=1>
+
 Lek
 ===========================
 
@@ -11,3 +18,5 @@ Du kan skriva egna routes i filen <code>src/route/app.php</code>, där finns nå
 Du kan också lägga till vanlig PHP-kod i filer under katalogen htdocs, de kan du köra som vanliga enkla PHP-program.
 
 * [Ett demo skript](demo/demo.php)
+
+</div>

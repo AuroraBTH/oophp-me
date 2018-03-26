@@ -1,5 +1,5 @@
 ---
-title: "Me-page - Niklas Andersson"
+title: "Me-page | Niklas Andersson"
 class: "article"
 ...
 
