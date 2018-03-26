@@ -1,4 +1,6 @@
 ---
+title: "About | Niklas Andersson"
+class: "about"
 ...
 
 <div class="about" markdown=1>
