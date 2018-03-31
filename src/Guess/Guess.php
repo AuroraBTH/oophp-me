@@ -94,7 +94,7 @@ class Guess
                 $this->tries--;
                 return false;
             }
-        } else {
+        } elseif ($number < 0 || $number > 100) {
             throw new GuessOutOfRange("Your guess out of range (1-100).");
         }
     }
