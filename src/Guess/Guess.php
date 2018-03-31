@@ -30,7 +30,7 @@ class Guess
     {
         if ($number == -1) {
             $this->number = $this->random();
-        } else {
+        } elseif ($number != -1) {
             $this->number = $number;
         }
 

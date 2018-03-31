@@ -106,7 +106,9 @@ class GuessController implements
         $session = $this->di->get("session");
         $number = $this->di->get("request")->getPost("number");
 
-        if (isset($_POST["reset"])) {
+        $reset = $this->di->get("request")->getPost("reset")
+
+        if (isset($reset)) {
             $_POST = array();
         }
 
