@@ -3,7 +3,7 @@ title: "Report | Niklas Andersson"
 ...
 
 
-<div class="report" markdown=1>
+<div class="report mt-4" markdown=1>
 
 Report
 =========================
