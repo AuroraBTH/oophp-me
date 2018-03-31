@@ -109,5 +109,21 @@ return [
                 return $obj;
             }
         ],
+        "pageRender" => [
+            "shared" => true,
+            "callback" => function () {
+                $obj = new \Anax\Page\PageRender();
+                $obj->setDI($this);
+                return $obj;
+            }
+        ],
+        "guessController" => [
+            "shared" => true,
+            "callback" => function () {
+                $obj = new \Aurora\Guess\GuessController();
+                $obj->setDI($this);
+                return $obj;
+            }
+        ],
     ],
 ];
