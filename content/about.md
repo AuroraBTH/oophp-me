@@ -3,7 +3,7 @@ title: "About | Niklas Andersson"
 class: "about"
 ...
 
-<div class="about" markdown=1>
+<div class="about mt-4" markdown=1>
 
 About
 =========================

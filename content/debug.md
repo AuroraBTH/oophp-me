@@ -3,7 +3,7 @@ title: "Debug | Niklas Andersson"
 class: "debug"
 ...
 
-<div markdown=1>
+<div class="mt-4" markdown=1>
 
 Debugga och utveckla
 ===========================

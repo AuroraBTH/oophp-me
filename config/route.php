@@ -13,6 +13,11 @@ return [
     // onto a base route.
     "routeFiles" => [
         [
+            // Base routes
+            "mount" => "guess",
+            "file" => __DIR__ . "/route/guess.php",
+        ],
+        [
             // These are for internal error handling and exceptions
             "mount" => null,
             "file" => __DIR__ . "/route/internal.php",
